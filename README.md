@@ -11,12 +11,19 @@ conda activate book-assistant
 
 # Dependencies.
 
-Ollama
+```
+pip3 install ollama
+```
 
-# Prompts used
+# Run
 
 ```
-Book Prompt: I am writing a book about converting a van to live in. Can you write the main chapter headings?
+python3 vanBook.py
+```
+
+# Prompts used
+```
+I am writing a book about converting a van to live in. Can you write the main chapter headings?
 I am writing a book about traditional female crafts done at home. Can you write the main chapter headings?
 I am writing a book about growing your own food in a small garden. Can you write the main chapter headings?
 ```
